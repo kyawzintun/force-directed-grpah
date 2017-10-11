@@ -1,0 +1,64 @@
+body {
+  background: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.svg-wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  height: 800px;
+  margin-top: 50px;
+}
+
+svg line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.info {
+  padding-top: 8px;
+}
+
+.flag-wrapper, .flag {
+	position: absolute;
+}
