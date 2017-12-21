@@ -9,6 +9,6 @@ $ npm install
 $ npm start
 ```
 
-*[Demo](https://cukyawzintun.github.io/force-directed-grpah/)*
+*[Demo](https://kyawzintun.github.io/force-directed-grpah/)*
 
 
